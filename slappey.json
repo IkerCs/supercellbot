@@ -1,0 +1,10 @@
+{
+  "name": "supercellbot",
+  "language": "javascript",
+  "manager": "npm",
+  "token": "<BotToken>",
+  "prefix": "<Prefix>",
+  "brawl": "<BrawlStarsAPIKey>",
+  "clash": "<ClashOfClansAPIKey>",
+  "royale": "<ClashRoyaleAPIKey>"
+}
