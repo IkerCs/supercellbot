@@ -14,9 +14,9 @@ module.exports = class MessageEvent extends BaseEvent {
             cooldown.add(message.author.id);
             setTimeout(() => cooldown.delete(message.author.id), 60000)
         }
-        if (message.content.startsWith(client.prefix)) {
+        if (message.content.startsWith(client.prefix.toLowerCase())) {
             const [cmdName, ...cmdArgs] = message.content.slice(client.prefix.length).trim().split(/\s+/);
-            const command = client.commands.get(cmdName);
+            const command = client.commands.get(cmdName.toLowerCase());
             const permissions = message.channel.permissionsFor(client.user);
             if (!permissions.has('EMBED_LINKS')
             || !permissions.has('USE_EXTERNAL_EMOJIS')
