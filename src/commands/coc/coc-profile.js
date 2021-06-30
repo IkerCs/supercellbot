@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-expressions */
 
-const { MessageEmbed } = require('discord.js');
+const { MessageEmbed } = require('discord.js-light');
 const fetch = require('node-fetch');
 const BaseCommand = require('../../utils/structures/BaseCommand');
 
