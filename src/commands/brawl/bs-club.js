@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-expressions */
-const { MessageEmbed } = require('discord.js');
+const { MessageEmbed } = require('discord.js-light');
 const fetch = require('node-fetch');
 const BaseCommand = require('../../utils/structures/BaseCommand');
 
@@ -10,8 +10,8 @@ module.exports = class bscommand extends BaseCommand {
 
     /**
      *
-     * @param {import('discord.js').Client} client
-     * @param {import('discord.js').Message} message
+     * @param {import('discord.js-light').Client} client
+     * @param {import('discord.js-light').Message} message
      * @param {String[]} args
      * @returns
      */
