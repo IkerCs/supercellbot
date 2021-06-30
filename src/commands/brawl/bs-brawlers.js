@@ -10,8 +10,8 @@ module.exports = class bscommand extends BaseCommand {
 
     /**
      *
-     * @param {import('discord.js').Client} client
-     * @param {import('discord.js').Message} message
+     * @param {import('discord.js-light').Client} client
+     * @param {import('discord.js-light').Message} message
      * @param {String[]} args
      * @returns
      */
