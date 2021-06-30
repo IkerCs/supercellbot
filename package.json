@@ -18,6 +18,7 @@
   },
   "dependencies": {
     "discord.js": "^12.5.3",
+    "discord.js-light": "^3.5.11",
     "node-fetch": "^2.6.1"
   }
 }
