@@ -44,7 +44,6 @@ module.exports = class bscommand extends BaseCommand {
         - [Ionos](https://ionos.com/)
 
         Plataformas:
-        - [DiscordThings](https://discordthings.com/)
         - [MybotList](https://www.portalmybot.com/mybotlist/)
         `)
         return message.channel.send(Embed);
